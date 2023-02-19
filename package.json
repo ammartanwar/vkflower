@@ -9,9 +9,14 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "dotenv": "^16.0.3",
     "next": "13.1.2",
+    "nodemailer": "^6.9.1",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-icons": "^4.7.1",
+    "react-phone-number-input": "^3.2.16",
+    "swiper": "^8.4.6"
   },
   "devDependencies": {
     "eslint": "8.32.0",

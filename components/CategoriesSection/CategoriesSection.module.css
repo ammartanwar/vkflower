@@ -1,0 +1,323 @@
+.Course {
+  padding: 0px 100px;
+}
+.Course h2 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 500;
+}
+.feature {
+  display: flex;
+  justify-content: space-evenly;
+}
+.listPanel .mPanel {
+  display: none;
+}
+.feature p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  margin: 0px 5px;
+}
+.tick {
+  font-size: 20px;
+  color: #0072bc;
+}
+
+.listButton {
+  display: flex;
+  justify-content: space-between;
+}
+
+.courses {
+  margin: 50px 0 100px;
+}
+.listPanel {
+  display: flex;
+  justify-content: flex-start;
+  gap: 20px;
+}
+
+.span {
+  padding: 10px;
+  width: fit-content;
+  cursor: pointer;
+  justify-content: start;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+.ActiveSpan {
+  padding: 10px;
+  width: fit-content;
+  cursor: pointer;
+  justify-content: start;
+  color: #f34f3f;
+  text-transform: uppercase;
+  font-size: 12px;
+
+
+}
+
+.gridPanelAll {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  margin-top: 20px;
+  justify-content: center;
+
+}
+
+.gridPanelAllP {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  margin-top: 20px;
+  justify-content: center;
+}
+
+.leftSideAllP {
+  padding: 0px;
+}
+
+.ImgAll {
+  height: auto;
+}
+
+.contentBoxAll {
+  padding: 0;
+}
+
+.contentBoxAll h6 {
+  color: #1b1b1b;
+  font-family: Montserrat;
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  line-height: 1;
+  text-align: center;
+}
+
+.gridPanel {
+  display: flex;
+  height: 510px;
+  width: 100%;
+  margin-top: 20px;
+  gap: 20px;
+  padding: 0px 20px;
+  overflow: auto;
+  position: relative;
+  scroll-behavior: smooth;
+  transition: transform 0.3s ease-out 0s;
+  pointer-events: auto;
+}
+.Course h5 {
+  font-size: 24px;
+  margin: 0;
+  padding: 0px 0px 5px 0px;
+}
+
+.leftSideAll {
+  padding: 0px;
+  width: fit-content;
+}
+
+.leftSide,
+.middleSide,
+.rightSide {
+  padding: 0px;
+  background-color: transparent;
+  max-height: 230px;
+  margin-bottom: 20px;
+  position: relative;
+  border-radius: 8px;
+  width: 33%;
+}
+.contentBox {
+  z-index: 1;
+  width: 95%;
+  border-radius: 19px;
+  padding: 20px 20px;
+  margin-left: 10px;
+  background-color: white;
+  position: absolute;
+  margin-top: -40px;
+  box-shadow: -1px 0px 10px 2px rgba(4, 135, 217, 0.1);
+}
+.courseImg {
+  width: 100%;
+  height: 246px;
+  border-radius: 8px;
+
+  z-index: 0;
+}
+.leftSide h6,
+.middleSide h6,
+.rightSide h6 {
+  font-size: 18px;
+  margin: 0;
+  margin-top: 0px;
+
+  color: #0072bc;
+}
+.leftSide p,
+.middleSide p,
+.rightSide p {
+  display: flex;
+  align-items: center;
+}
+.checkCircle {
+  margin-right: 10px;
+  color: #0072bc;
+  font-size: 22px;
+}
+.btnWrapper {
+  display: flex;
+  width: 100%;
+  gap: 10px;
+}
+.btnWrapper button {
+  padding: 10px 15px;
+  border-radius: 10px;
+  border: 1px solid;
+}
+.gridPanelN {
+  padding: 0;
+  height: 500px;
+  display: flex;
+  width: 100%;
+  gap: 20px;
+  justify-content: space-evenly;
+  padding: 0px 20px;
+}
+
+@media (max-width: 1025px) {
+  .gridPanel {
+    height: 480px;
+  }
+  .Course {
+    padding: 0px 20px;
+  }
+  .leftSide,
+  .middleSide,
+  .rightSide {
+    max-height: 190px;
+  }
+}
+
+@media (max-width: 1280px) {
+  .contentBox {
+    margin-top: -30px;
+  }
+}
+
+@media (max-width: 641px) {
+  .Course h2 {
+    font-size: 24px;
+    font-weight: 600;
+  }
+}
+
+@media (max-width: 481px) {
+  .Course {
+    padding: 0 20px;
+    margin-top: 30px;
+    width: 100%;
+  }
+  .middlePanel {
+    display: none;
+  }
+  .span {
+    font-size: 18px;
+    border: 0;
+    background: aliceblue;
+    border-bottom: 1px solid #2d9cd730;
+    padding: 12px 20px;
+  }
+  .leftSide,
+  .middleSide,
+  .rightSide {
+    max-height: 180px;
+  }
+  .ActiveSpan {
+    padding: 10px 20px;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    border: 0;
+    border-radius: 8px;
+    background-color: #0072bc;
+    color: white;
+    justify-content: start;
+  }
+  .Course h2 {
+    font-size: 26px;
+    font-weight: 700;
+  }
+  .feature {
+    flex-flow: column;
+    align-items: flex-start;
+    line-height: 1.9em;
+  }
+  .courses {
+    padding: 0px;
+    box-shadow: none;
+  }
+  .gridPanel {
+    gap: 0px;
+  }
+  .listPanel .mPanel {
+    display: flex;
+    flex-flow: column;
+    margin-top: 20px;
+  }
+  .listPanel {
+    display: grid;
+    width: 100%;
+
+    grid-template-columns: 100%;
+    height: max-content;
+  }
+
+  .gridPanel {
+    grid-template-columns: 85% 85%;
+    overflow: scroll;
+    padding: 0;
+    height: 520px;
+    margin-top: 0px;
+  }
+
+  .gridPanelN {
+    overflow: scroll;
+    padding: 0;
+    height: 500px;
+    display: grid;
+    grid-template-columns: 90% 90% 90%;
+    width: 100%;
+  }
+
+  .leftSide,
+  .middleSide,
+  .rightSide {
+    width: 100%;
+    margin: 10px 0px;
+    padding: 0px;
+  }
+  .courseImg {
+    width: 100%;
+  }
+  .leftSide h6,
+  .middleSide h6,
+  .rightSide h6 {
+    margin-right: 0;
+  }
+  .checkCircle {
+    margin-right: 5px;
+  }
+  .Course h5 {
+    padding: 10px;
+  }
+  .contentBox {
+    margin-top: -20px;
+  }
+}

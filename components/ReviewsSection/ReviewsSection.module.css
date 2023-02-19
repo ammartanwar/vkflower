@@ -1,0 +1,48 @@
+.reviewsSection {
+    padding: 100px 230px;
+    text-align: center;
+}
+
+.reviewsSectionDiv {
+    display: flex;
+    align-items: center;
+}
+
+.slider {
+    margin: 0px 0px;
+}
+
+.Image {
+    border-radius: 50px;
+}
+
+.testText {
+    color: #4b4747;
+    font-family: Lora,serif;
+    font-style: italic;
+    font-size: 24px;
+    line-height: 1.5em;
+    margin: 30px 200px;
+}
+
+.authorName {
+    display: block;
+    margin: 30px 0 0;
+    color: #1b1b1b;
+    font-family: Montserrat;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 500;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+}
+
+.authorJob {
+    display: block;
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: 24px;
+    text-transform: none;
+    color: #afafaf;
+    margin: 0;
+}

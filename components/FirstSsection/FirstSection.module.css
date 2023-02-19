@@ -1,0 +1,58 @@
+.firstSection {
+    margin-top: 115px;
+}
+
+.leftSide {
+    display: block;
+}
+
+.slider1, .slider2, .slider3 {
+    height: 480px;
+    margin-bottom: 40px;
+}
+
+.slider1 {
+    background: url("../../public/slider3.jpg");
+    background-size: cover;
+}
+
+.slider2 {
+    background: url("../../public/slider2.jpg");
+    background-size: cover;
+}
+
+.slider3 {
+    background: url("../../public/slider1.jpg");
+    background-size: cover;
+}
+
+
+
+.innerItems {
+    width: 45%;
+    padding: 100px 0px 0px 200px;
+}
+
+.innerH1 {
+    text-align: inherit;
+    line-height: 51px;
+    letter-spacing: 0px;
+    font-weight: 400;
+    font-size: 48px;
+    font-family: "Playfair Display";
+    margin: 0;
+    width: 347px;
+}
+
+.innerSpan {
+    color: red;
+}
+
+.innerPara {
+    font-size: 20px;
+    font-family: "Lora";
+    width: 429px;
+    line-height: 29px;
+    color: rgb(109, 106, 106);
+    font-weight: 400;
+}

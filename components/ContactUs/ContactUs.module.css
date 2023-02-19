@@ -1,0 +1,72 @@
+.ContactUs {
+    background: url("../../public/contactus.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 50px 100px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+}
+
+.right {
+    padding: 0px 100px;
+}
+
+.formWrapper {
+    margin-bottom: 20px;
+}
+
+.innerH1 {
+    text-align: inherit;
+    line-height: 51px;
+    letter-spacing: 0px;
+    font-weight: 400;
+    font-size: 48px;
+    font-family: "Playfair Display";
+    margin: 0;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.innerSpan {
+    color: red;
+}
+
+.NameInput {
+    padding: 20px 30px;
+    border-radius: 10px;
+    border: none;
+    background: #fff;
+    width: 100%;
+}
+
+.NameInput:focus-visible {
+    outline: none;
+}
+
+.formWrapper input[type="tel" i] {
+    padding: 20px 0px;
+    border-radius: 10px;
+    border: none;
+    background: #fff;
+    width: 100%;
+}
+
+.formWrapper input[type="tel" i]:focus-visible {
+    outline: none;
+}
+
+.PhoneInput {
+background-color: #fff;
+padding: 0px 30px;
+border-radius: 10px;
+}
+
+.PhoneInput:focus-visible {
+    outline: none;
+}
+
+.ButtonDiv {
+    display: grid;
+}
