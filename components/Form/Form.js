@@ -16,13 +16,13 @@ const Form = ({
   let data = {
       name,
       email,
-      mobile
+      mobile,
     }
   fetch('/api/contact', {
       method: 'POST',
       headers: {
         'Accept': 'application/json, text/plain, */*',
-        'Content-Type': 'application/json'
+        'Content-Type': 'application/json',
       },
       body: JSON.stringify(data)
     }).then((res) => {

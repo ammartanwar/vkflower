@@ -58,7 +58,6 @@ function AboutUs() {
         </p>
         <button onClick={popupShow} className="Button">Talk to Florist</button>
       </div>
-       ̰
     </section>
   );
 }
