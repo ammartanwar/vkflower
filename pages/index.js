@@ -1,4 +1,5 @@
 import Head from "next/head";
+import React from 'react';
 import Navbar from "../components/Navbar/Navbar";
 import FirstSection from "../components/FirstSsection/FirstSection";
 import AboutUs from "../components/AboutUs/AboutUs";
@@ -9,7 +10,7 @@ import FooterSection from "../components/FooterSection/FooterSection";
 import CategoriesSection from "../components/CategoriesSection/CategoriesSection";
 import PortfolioDetails from "../components/PortfolioSection/PortfolioSection";
 
-export default function Home() {
+function index() {
   return (
     <div>
       <Head>
@@ -29,3 +30,5 @@ export default function Home() {
     </div>
   );
 }
+
+export default index
