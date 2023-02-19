@@ -6,8 +6,6 @@ import "swiper/css";
 import "swiper/css/free-mode";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
-import ProjectPopup from "../ProductPopup/ProductPopup";
-import Form from "../Form/Form";
 import Image from "next/image";
 
 import {
@@ -18,9 +16,6 @@ import {
   specialFlowersD,
   BouquetsD,
   PlantsD,
-  imgsrc,
-  freshFlowersDesc1,
-  freshFlowersImg1
 } from "./CategoriesDetails";
 
 const Course = () => {
@@ -95,13 +90,6 @@ const Course = () => {
 
   return (
     <div className={styles.Course} id="categories">
-      <ProjectPopup
-        trigger={popups}
-        setTrigger={setPopups}
-        title={title}
-        desc={desc}
-        imgsrc={img}
-      />
       <div className={styles.courses}>
         <div className={styles.listButton}>
           <div className={styles.listPanel}>
