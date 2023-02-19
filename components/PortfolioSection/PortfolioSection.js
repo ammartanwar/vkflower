@@ -85,7 +85,7 @@ const Course = () => {
     if (width > 481) {
       setMobile(false);
     }
-  }, []);
+  });
 
   return (
     <div className={styles.Course} id="portfolio">

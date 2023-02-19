@@ -26,7 +26,7 @@ const Navbar = () => {
     if (width > 481) {
       setMobile(false);
     }
-  }, []);
+  });
 
   return (
     <div>
