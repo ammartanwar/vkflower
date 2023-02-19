@@ -136,38 +136,6 @@ const Course = () => {
                           <div className={styles.contentBox}>
                             <h6>{title}</h6>
                             <h6>{title1}</h6>
-                            {/* <p>
-                              <BiTimeFive className={styles.checkCircle} />
-                              {para[0]}
-                            </p>
-                            <p>
-                              <AiOutlineFundProjectionScreen
-                                className={styles.checkCircle}
-                                style={{ color: "#edb552" }}
-                              />
-                              {para[1]}
-                            </p>
-                            <p>
-                              <TbCurrencyRupee className={styles.checkCircle} />
-                              {para[2]}
-                            </p> */}
-                            {/* <div className={styles.btnWrapper}>
-                              <a href={link1}>
-                                <button>View Details</button>
-                              </a>
-                              <a href={link2} target="_blank">
-                                <button
-                                  className="outLineBtn"
-                                  style={{ padding: "8px 15px" }}
-                                >
-                                  Brochure
-                                  <FiDownload
-                                    className="bIcon"
-                                    style={{ color: "#2979AD" }}
-                                  />
-                                </button>
-                              </a>
-                            </div> */}
                           </div>
                         </div>
                       </div>
@@ -223,38 +191,6 @@ const Course = () => {
                             <div className={styles.contentBox}>
                               <h6>{title}</h6>
                               <h6>{title1}</h6>
-                              {/* <p>
-                              <BiTimeFive className={styles.checkCircle} />
-                              {para[0]}
-                            </p>
-                            <p>
-                              <AiOutlineFundProjectionScreen
-                                className={styles.checkCircle}
-                                style={{ color: "#edb552" }}
-                              />
-                              {para[1]}
-                            </p>
-                            <p>
-                              <TbCurrencyRupee className={styles.checkCircle} />
-                              {para[2]}
-                            </p> */}
-                              {/* <div className={styles.btnWrapper}>
-                              <a href={link1}>
-                                <button>View Details</button>
-                              </a>
-                              <a href={link2} target="_blank">
-                                <button
-                                  className="outLineBtn"
-                                  style={{ padding: "8px 15px" }}
-                                >
-                                  Brochure
-                                  <FiDownload
-                                    className="bIcon"
-                                    style={{ color: "#2979AD" }}
-                                  />
-                                </button>
-                              </a>
-                            </div> */}
                             </div>
                           </div>
                         </SwiperSlide>
@@ -312,38 +248,6 @@ const Course = () => {
                           <div className={styles.contentBox}>
                             <h6>{title}</h6>
                             <h6>{title1}</h6>
-                            {/* <p>
-                            <BiTimeFive className={styles.checkCircle} />
-                            {para[0]}
-                          </p>
-                          <p>
-                            <AiOutlineFundProjectionScreen
-                              className={styles.checkCircle}
-                              style={{ color: "#edb552" }}
-                            />
-                            {para[1]}
-                          </p>
-                          <p>
-                            <TbCurrencyRupee className={styles.checkCircle} />
-                            {para[2]}
-                          </p> */}
-                            {/* <div className={styles.btnWrapper}>
-                            <a href={link1}>
-                              <button>View Details</button>
-                            </a>
-                            <a href={link2} target="_blank">
-                              <button
-                                className="outLineBtn"
-                                style={{ padding: "8px 15px" }}
-                              >
-                                Brochure
-                                <FiDownload
-                                  className="bIcon"
-                                  style={{ color: "#2979AD" }}
-                                />
-                              </button>
-                            </a>
-                          </div> */}
                           </div>
                         </SwiperSlide>
                       );
@@ -378,38 +282,6 @@ const Course = () => {
                           <div className={styles.contentBoxAll}>
                             <h6>{title}</h6>
                             <h6>{title1}</h6>
-                            {/* <p>
-                              <BiTimeFive className={styles.checkCircle} />
-                              {para[0]}
-                            </p>
-                            <p>
-                              <AiOutlineFundProjectionScreen
-                                className={styles.checkCircle}
-                                style={{ color: "#edb552" }}
-                              />
-                              {para[1]}
-                            </p>
-                            <p>
-                              <TbCurrencyRupee className={styles.checkCircle} />
-                              {para[2]}
-                            </p> */}
-                            {/* <div className={styles.btnWrapper}>
-                              <a href={link1}>
-                                <button>View Details</button>
-                              </a>
-                              <a href={link2} target="_blank">
-                                <button
-                                  className="outLineBtn"
-                                  style={{ padding: "8px 15px" }}
-                                >
-                                  Brochure
-                                  <FiDownload
-                                    className="bIcon"
-                                    style={{ color: "#2979AD" }}
-                                  />
-                                </button>
-                              </a>
-                            </div> */}
                           </div>
                         </a>
                       </div>
@@ -441,38 +313,6 @@ const Course = () => {
                           <div className={styles.contentBoxAll}>
                             <h6>{title}</h6>
                             <h6>{title1}</h6>
-                            {/* <p>
-                              <BiTimeFive className={styles.checkCircle} />
-                              {para[0]}
-                            </p>
-                            <p>
-                              <AiOutlineFundProjectionScreen
-                                className={styles.checkCircle}
-                                style={{ color: "#edb552" }}
-                              />
-                              {para[1]}
-                            </p>
-                            <p>
-                              <TbCurrencyRupee className={styles.checkCircle} />
-                              {para[2]}
-                            </p> */}
-                            {/* <div className={styles.btnWrapper}>
-                              <a href={link1}>
-                                <button>View Details</button>
-                              </a>
-                              <a href={link2} target="_blank">
-                                <button
-                                  className="outLineBtn"
-                                  style={{ padding: "8px 15px" }}
-                                >
-                                  Brochure
-                                  <FiDownload
-                                    className="bIcon"
-                                    style={{ color: "#2979AD" }}
-                                  />
-                                </button>
-                              </a>
-                            </div> */}
                           </div>
                         </a>
                       </div>
@@ -504,38 +344,6 @@ const Course = () => {
                           <div className={styles.contentBoxAll}>
                             <h6>{title}</h6>
                             <h6>{title1}</h6>
-                            {/* <p>
-                              <BiTimeFive className={styles.checkCircle} />
-                              {para[0]}
-                            </p>
-                            <p>
-                              <AiOutlineFundProjectionScreen
-                                className={styles.checkCircle}
-                                style={{ color: "#edb552" }}
-                              />
-                              {para[1]}
-                            </p>
-                            <p>
-                              <TbCurrencyRupee className={styles.checkCircle} />
-                              {para[2]}
-                            </p> */}
-                            {/* <div className={styles.btnWrapper}>
-                              <a href={link1}>
-                                <button>View Details</button>
-                              </a>
-                              <a href={link2} target="_blank">
-                                <button
-                                  className="outLineBtn"
-                                  style={{ padding: "8px 15px" }}
-                                >
-                                  Brochure
-                                  <FiDownload
-                                    className="bIcon"
-                                    style={{ color: "#2979AD" }}
-                                  />
-                                </button>
-                              </a>
-                            </div> */}
                           </div>
                         </a>
                       </div>
@@ -567,38 +375,6 @@ const Course = () => {
                           <div className={styles.contentBoxAll}>
                             <h6>{title}</h6>
                             <h6>{title1}</h6>
-                            {/* <p>
-                              <BiTimeFive className={styles.checkCircle} />
-                              {para[0]}
-                            </p>
-                            <p>
-                              <AiOutlineFundProjectionScreen
-                                className={styles.checkCircle}
-                                style={{ color: "#edb552" }}
-                              />
-                              {para[1]}
-                            </p>
-                            <p>
-                              <TbCurrencyRupee className={styles.checkCircle} />
-                              {para[2]}
-                            </p> */}
-                            {/* <div className={styles.btnWrapper}>
-                              <a href={link1}>
-                                <button>View Details</button>
-                              </a>
-                              <a href={link2} target="_blank">
-                                <button
-                                  className="outLineBtn"
-                                  style={{ padding: "8px 15px" }}
-                                >
-                                  Brochure
-                                  <FiDownload
-                                    className="bIcon"
-                                    style={{ color: "#2979AD" }}
-                                  />
-                                </button>
-                              </a>
-                            </div> */}
                           </div>
                         </a>
                       </div>
@@ -629,38 +405,6 @@ const Course = () => {
                         <div className={styles.contentBoxAll}>
                           <h6>{title}</h6>
                           <h6>{title1}</h6>
-                          {/* <p>
-                            <BiTimeFive className={styles.checkCircle} />
-                            {para[0]}
-                          </p>
-                          <p>
-                            <AiOutlineFundProjectionScreen
-                              className={styles.checkCircle}
-                              style={{ color: "#edb552" }}
-                            />
-                            {para[1]}
-                          </p>
-                          <p>
-                            <TbCurrencyRupee className={styles.checkCircle} />
-                            {para[2]}
-                          </p> */}
-                          {/* <div className={styles.btnWrapper}>
-                            <a href={link1}>
-                              <button>View Details</button>
-                            </a>
-                            <a href={link2} target="_blank">
-                              <button
-                                className="outLineBtn"
-                                style={{ padding: "8px 15px" }}
-                              >
-                                Brochure
-                                <FiDownload
-                                  className="bIcon"
-                                  style={{ color: "#2979AD" }}
-                                />
-                              </button>
-                            </a>
-                          </div> */}
                         </div>
                       </a>
                     </div>
@@ -690,38 +434,6 @@ const Course = () => {
                         <div className={styles.contentBoxAll}>
                           <h6>{title}</h6>
                           <h6>{title1}</h6>
-                          {/* <p>
-                            <BiTimeFive className={styles.checkCircle} />
-                            {para[0]}
-                          </p>
-                          <p>
-                            <AiOutlineFundProjectionScreen
-                              className={styles.checkCircle}
-                              style={{ color: "#edb552" }}
-                            />
-                            {para[1]}
-                          </p>
-                          <p>
-                            <TbCurrencyRupee className={styles.checkCircle} />
-                            {para[2]}
-                          </p> */}
-                          {/* <div className={styles.btnWrapper}>
-                            <a href={link1}>
-                              <button>View Details</button>
-                            </a>
-                            <a href={link2} target="_blank">
-                              <button
-                                className="outLineBtn"
-                                style={{ padding: "8px 15px" }}
-                              >
-                                Brochure
-                                <FiDownload
-                                  className="bIcon"
-                                  style={{ color: "#2979AD" }}
-                                />
-                              </button>
-                            </a>
-                          </div> */}
                         </div>
                       </a>
                     </div>
@@ -751,38 +463,6 @@ const Course = () => {
                         <div className={styles.contentBoxAll}>
                           <h6>{title}</h6>
                           <h6>{title1}</h6>
-                          {/* <p>
-                            <BiTimeFive className={styles.checkCircle} />
-                            {para[0]}
-                          </p>
-                          <p>
-                            <AiOutlineFundProjectionScreen
-                              className={styles.checkCircle}
-                              style={{ color: "#edb552" }}
-                            />
-                            {para[1]}
-                          </p>
-                          <p>
-                            <TbCurrencyRupee className={styles.checkCircle} />
-                            {para[2]}
-                          </p> */}
-                          {/* <div className={styles.btnWrapper}>
-                            <a href={link1}>
-                              <button>View Details</button>
-                            </a>
-                            <a href={link2} target="_blank">
-                              <button
-                                className="outLineBtn"
-                                style={{ padding: "8px 15px" }}
-                              >
-                                Brochure
-                                <FiDownload
-                                  className="bIcon"
-                                  style={{ color: "#2979AD" }}
-                                />
-                              </button>
-                            </a>
-                          </div> */}
                         </div>
                       </a>
                     </div>

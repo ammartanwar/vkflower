@@ -5,11 +5,6 @@ export const viewAllD = [
     title: "Fresh Flowers",
     title1: "",
     tag: "All Categories",
-    // para: [
-    //   "",
-    //   "",
-    //   "",
-    // ],
     link1: "",
     link2:
       "",
@@ -20,11 +15,6 @@ export const viewAllD = [
     title: "Foliages",
     title1: "",
     tag: "All Categories",
-    // para: [
-    //   "",
-    //   "",
-    //   "",
-    // ],
     link1: "",
     link2:
       "",
@@ -50,11 +40,6 @@ export const viewAllD = [
     title: "Fillers",
     title1: "",
     tag: "All Categories",
-    // para: [
-    //   "",
-    //   "",
-    //   "",
-    // ],
     link1: "",
     link2:
       "",
@@ -65,11 +50,6 @@ export const viewAllD = [
     title: "Bouquets",
     title1: "",
     tag: "All Categories",
-    // para: [
-    //   "",
-    //   "",
-    //   "",
-    // ],
     link1: "",
     link2:
       "",
@@ -80,11 +60,6 @@ export const viewAllD = [
     title: "Plants",
     title1: "",
     tag: "All Categories",
-    // para: [
-    //   "",
-    //   "",
-    //   "",
-    // ],
     link1: "",
     link2:
       "",
@@ -106,11 +81,6 @@ export const FreshFlowersD = [
     title: "Foliages",
     title1: "",
     tag: "Fresh Flowers",
-    // para: [
-    //   "",
-    //   "",
-    //   "",
-    // ],
     link1: "",
     link2:
       "",
@@ -136,11 +106,6 @@ export const FreshFlowersD = [
     title: "Fillers",
     title1: "",
     tag: "Fresh Flowers",
-    // para: [
-    //   "",
-    //   "",
-    //   "",
-    // ],
     link1: "",
     link2:
       "",
@@ -151,11 +116,6 @@ export const FreshFlowersD = [
     title: "Bouquets",
     title1: "",
     tag: "Fresh Flowers",
-    // para: [
-    //   "",
-    //   "",
-    //   "",
-    // ],
     link1: "",
     link2:
       "",
@@ -168,11 +128,6 @@ export const FoliagesD = [
     title: "Fresh Flowers",
     title1: "",
     tag: "Foliages",
-    // para: [
-    //   "",
-    //   "",
-    //   "",
-    // ],
     link1: "",
     link2:
       "",
@@ -183,11 +138,6 @@ export const FoliagesD = [
     title: "Foliages",
     title1: "",
     tag: "Foliages",
-    // para: [
-    //   "",
-    //   "",
-    //   "",
-    // ],
     link1: "",
     link2:
       "",
@@ -213,11 +163,6 @@ export const FoliagesD = [
     title: "Fillers",
     title1: "",
     tag: "Foliages",
-    // para: [
-    //   "",
-    //   "",
-    //   "",
-    // ],
     link1: "",
     link2:
       "",
@@ -230,11 +175,6 @@ export const ForFillersD = [
     title: "Fresh Flowers",
     title1: "",
     tag: "For Fillers",
-    // para: [
-    //   "",
-    //   "",
-    //   "",
-    // ],
     link1: "",
     link2:
       "",
@@ -245,11 +185,6 @@ export const ForFillersD = [
     title: "Foliages",
     title1: "",
     tag: "For Fillers",
-    // para: [
-    //   "",
-    //   "",
-    //   "",
-    // ],
     link1: "",
     link2:
       "",
@@ -278,11 +213,6 @@ export const specialFlowersD = [
     title: "Fresh Flowers",
     title1: "",
     tag: "Special Flowers",
-    // para: [
-    //   "",
-    //   "",
-    //   "",
-    // ],
     link1: "",
     link2:
       "",
@@ -293,11 +223,6 @@ export const specialFlowersD = [
     title: "Foliages",
     title1: "",
     tag: "Special Flowers",
-    // para: [
-    //   "",
-    //   "",
-    //   "",
-    // ],
     link1: "",
     link2:
       "",
@@ -310,11 +235,6 @@ export const BouquetsD = [
     title: "Fresh Flowers",
     title1: "",
     tag: "Bouquets",
-    // para: [
-    //   "",
-    //   "",
-    //   "",
-    // ],
     link1: "",
     link2:
       "",
@@ -325,11 +245,6 @@ export const BouquetsD = [
     title: "Foliages",
     title1: "",
     tag: "Bouquets",
-    // para: [
-    //   "",
-    //   "",
-    //   "",
-    // ],
     link1: "",
     link2:
       "",
@@ -357,11 +272,6 @@ export const PlantsD = [
     title: "Fresh Flowers",
     title1: "",
     tag: "Plants",
-    // para: [
-    //   "",
-    //   "",
-    //   "",
-    // ],
     link1: "",
     link2:
       "",
@@ -372,11 +282,6 @@ export const PlantsD = [
     title: "Foliages",
     title1: "",
     tag: "Plants",
-    // para: [
-    //   "",
-    //   "",
-    //   "",
-    // ],
     link1: "",
     link2:
       "",
