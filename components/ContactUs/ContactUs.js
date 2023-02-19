@@ -8,7 +8,7 @@ import Image from "next/image";
 function ContactUs() {
   return (
     <section className={styles.ContactUs} id="contact-us">
-        <div></div>
+        <div className={styles.none}></div>
       <div className={styles.right}>
       <h1 className={styles.innerH1}>
 Join The 

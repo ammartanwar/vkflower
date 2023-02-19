@@ -37,7 +37,8 @@ function AboutUs() {
         </div>
       </Popup>
       <div className={styles.left}>
-        <Image src="/leftAbout.jpg" width="650" height="420" alt="VK Flora" />
+        <Image src="/leftAbout.jpg" width="650" height="420" alt="VK Flora" className={styles.ImgD} />
+        <Image src="/leftAbout.jpg" width="350" height="220" alt="VK Flora" className={styles.ImgM} />
       </div>
       <div className={styles.right}>
         <h1 className={styles.innerH1}>
