@@ -24,7 +24,7 @@ function AboutUs() {
     if (width > 481) {
       setMobile(false);
     }
-  });
+  }, []);
   return (
     <section className={styles.aboutUs} id="about-us">
       <Popup trigger={popups} setTrigger={setPopups} className="popupModal">

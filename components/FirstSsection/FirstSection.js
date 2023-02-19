@@ -29,7 +29,7 @@ function FirstSection() {
     if (width > 481) {
       setMobile(false);
     }
-  });
+  }, []);
   return (
     <section className={styles.firstSection}>
       <Popup trigger={popups} setTrigger={setPopups} className="popupModal">
