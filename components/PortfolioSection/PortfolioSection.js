@@ -163,21 +163,11 @@ const Course = () => {
             {freshFlowers ? (
               <div className={styles.mPanel}>
                 <div className={styles.gridPanel}>
-                  <Swiper
-                    slidesPerView={value}
-                    spaceBetween={mobile ? 10 : 20}
-                    pagination={{
-                      clickable: true,
-                    }}
-                    grabCursor={true}
-                    modules={[Pagination]}
-                    className="mySwiper"
-                  >
                     {filtteredFreshFlowersD.map((viewAllData) => {
                       const { id, title, title1, img, para, link1, link2 } =
                         viewAllData;
                       return (
-                        <SwiperSlide className={styles.leftSide} key={id}>
+                        <div className={styles.leftSide} key={id}>
                           <div key={id}>
                             <a href={link1}>
                               <Image
@@ -193,10 +183,9 @@ const Course = () => {
                               <h6>{title1}</h6>
                             </div>
                           </div>
-                        </SwiperSlide>
+                        </div>
                       );
                     })}
-                  </Swiper>
                 </div>
               </div>
             ) : (
@@ -219,21 +208,11 @@ const Course = () => {
             {foliages ? (
               <div className={styles.mPanel}>
                 <div className={styles.gridPanel}>
-                  <Swiper
-                    slidesPerView={value}
-                    spaceBetween={mobile ? 10 : 20}
-                    pagination={{
-                      clickable: true,
-                    }}
-                    grabCursor={true}
-                    modules={[Pagination]}
-                    className="mySwiper"
-                  >
                     {filtteredFoliagesD.map((viewAllData) => {
                       const { id, title, title1, img, para, link1, link2 } =
                         viewAllData;
                       return (
-                        <SwiperSlide className={styles.leftSide} key={id}>
+                        <div className={styles.leftSide} key={id}>
                           <div className={styles.gridImg}>
                             <a href={link1}>
                               <Image
@@ -249,10 +228,9 @@ const Course = () => {
                             <h6>{title}</h6>
                             <h6>{title1}</h6>
                           </div>
-                        </SwiperSlide>
+                        </div>
                       );
                     })}
-                  </Swiper>
                 </div>
               </div>
             ) : (

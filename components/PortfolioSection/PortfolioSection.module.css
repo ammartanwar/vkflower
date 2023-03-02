@@ -1,3 +1,51 @@
+@media (min-width:320px) {
+  .listButton {
+    display: grid;
+    grid-template-columns: 100%;
+    gap: 10px;
+    margin-bottom: 50px;
+  }
+  .gridPanel {
+    padding: 0;
+    margin-top: 0px;
+    display: grid;
+    overflow: scroll;
+    grid-template-columns: 60% 60% 60% 60% 60% 60%;
+    height: 330px;
+    margin-bottom: 20px;
+  }
+  .contentBox h6 {
+    color: #1b1b1b;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    line-height: 1;
+    text-align: center;
+  }
+.ActiveSpan {
+  padding: 12px 20px;
+  width: 100%;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+  border: 0;
+  background-color: #f34f3f;
+  color: white;
+  justify-content: start;
+}
+.span {
+  font-size: 18px;
+  border: 0;
+  background: aliceblue;
+  border-bottom: 1px solid #2d9cd730;
+  cursor: pointer;
+  padding: 12px 20px;
+}
+}
+
+@media (min-width:1281px) {
 .Course {
   padding: 0px 100px;
 }
@@ -22,7 +70,7 @@
 }
 .tick {
   font-size: 20px;
-  color: #0072bc;
+  color: #f34f3f;
 }
 
 .listButton {
@@ -46,6 +94,9 @@
   justify-content: start;
   text-transform: uppercase;
   font-size: 12px;
+  border: 0;
+  background: none;
+  border-bottom: 0;
 }
 .ActiveSpan {
   padding: 10px;
@@ -55,16 +106,26 @@
   color: #f34f3f;
   text-transform: uppercase;
   font-size: 12px;
-
-
+  background-color: #fff;
 }
 
 .gridPanelAll {
   display: grid;
-  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-columns: 33% 33% 33%;
   margin-top: 20px;
   justify-content: center;
 
+}
+
+.gridPanelAllP {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  margin-top: 20px;
+  justify-content: center;
+}
+
+.leftSideAllP {
+  padding: 0px;
 }
 
 .ImgAll {
@@ -76,9 +137,13 @@
 }
 
 .contentBoxAll h6 {
+  color: #1b1b1b;
+  font-family: Montserrat;
   font-size: 15px;
-  margin: 10px 0;
-  color: #6d6a6a;
+  font-weight: 500;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  line-height: 1;
   text-align: center;
 }
 
@@ -98,8 +163,7 @@
 .Course h5 {
   font-size: 24px;
   margin: 0;
-
-  padding: 10px 60px;
+  padding: 0px 0px 5px 0px;
 }
 
 .leftSideAll {
@@ -142,8 +206,7 @@
   font-size: 18px;
   margin: 0;
   margin-top: 0px;
-
-  color: #0072bc;
+  color: #f34f3f;
 }
 .leftSide p,
 .middleSide p,
@@ -153,7 +216,7 @@
 }
 .checkCircle {
   margin-right: 10px;
-  color: #0072bc;
+  color: #f34f3f;
   font-size: 22px;
 }
 .btnWrapper {
@@ -175,11 +238,9 @@
   justify-content: space-evenly;
   padding: 0px 20px;
 }
+}
 
 @media (max-width: 1025px) {
-  .gridPanel {
-    height: 480px;
-  }
   .Course {
     padding: 0px 20px;
   }
@@ -224,18 +285,6 @@
   .rightSide {
     max-height: 180px;
   }
-  .ActiveSpan {
-    padding: 10px 20px;
-    width: 100%;
-    font-size: 16px;
-    font-weight: 600;
-    cursor: pointer;
-    border: 0;
-    border-radius: 8px;
-    background-color: #0072bc;
-    color: white;
-    justify-content: start;
-  }
   .Course h2 {
     font-size: 26px;
     font-weight: 700;
@@ -249,14 +298,6 @@
     padding: 0px;
     box-shadow: none;
   }
-  .gridPanel {
-    gap: 0px;
-  }
-  .listPanel .mPanel {
-    display: flex;
-    flex-flow: column;
-    margin-top: 20px;
-  }
   .listPanel {
     display: grid;
     width: 100%;
@@ -265,13 +306,7 @@
     height: max-content;
   }
 
-  .gridPanel {
-    grid-template-columns: 85% 85%;
-    overflow: scroll;
-    padding: 0;
-    height: 520px;
-    margin-top: 0px;
-  }
+
 
   .gridPanelN {
     overflow: scroll;
@@ -291,11 +326,6 @@
   }
   .courseImg {
     width: 100%;
-  }
-  .leftSide h6,
-  .middleSide h6,
-  .rightSide h6 {
-    margin-right: 0;
   }
   .checkCircle {
     margin-right: 5px;
