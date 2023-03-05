@@ -1,3 +1,52 @@
+@media (min-width:320px) {
+    .popup {
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        margin: auto;
+        background-color: rgba(0, 0, 0, 0.23);
+        position: fixed;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 9999;
+        overflow: hidden;
+    }
+    
+    .popupInner {
+        background-image: url("../../public/slider1.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        position: relative;
+        display: block;
+        grid-template-columns: 49% 49%;
+        align-items: center;
+        justify-content: space-evenly;
+        padding: 30px 0px;
+        width: 90%;
+        height: fit-content;
+        border-radius: 10px;
+    
+        background-color: white;
+        text-align: center;
+    }
+    
+        .closeBtn {
+          position: absolute;
+          background-color: white;
+          cursor: pointer;
+          border-radius: 50%;
+    
+          color: #DB3968;
+          top: 5px;
+          right: 10px;
+          font-size: 25px;
+        }
+}
+
+@media (min-width:1025px) {
 .popup {
     top: 0;
     left: 0;
@@ -38,8 +87,9 @@
       cursor: pointer;
       border-radius: 50%;
 
-      color: #f34f3f;
+      color: #DB3968;
       top: 5px;
       right: 10px;
       font-size: 25px;
     }
+}

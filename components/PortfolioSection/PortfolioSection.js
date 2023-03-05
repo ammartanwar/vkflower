@@ -1,11 +1,5 @@
 import React, { useState, useEffect } from "react";
 import styles from "./PortfolioSection.module.css";
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Pagination } from "swiper";
-import "swiper/css";
-import "swiper/css/free-mode";
-import "swiper/css/pagination";
-import "swiper/css/navigation";
 import Popup from "../Popup/Popup";
 import Form from "../Form/Form";
 import Image from "next/image";
@@ -14,21 +8,12 @@ import {
   viewAllD,
   FreshFlowersD,
   FoliagesD,
-  ForFillersD,
-  specialFlowersD,
-  BouquetsD,
-  PlantsD,
 } from "./PortfolioDetails";
 
 const Course = () => {
   const [viewAll, setViewAll] = useState(true);
   const [freshFlowers, setFreshFlowers] = useState(false);
   const [foliages, setFoliages] = useState(false);
-  const [fillers, setFillers] = useState(false);
-  const [specialFlowers, setSpecialFlowers] = useState(false);
-  const [bouquets, setBouquets] = useState(false);
-  const [plants, setPlants] = useState(false);
-  const [value, setValue] = useState(3.2);
   const [show, setShow] = useState(false);
   const [popups, setPopups] = useState(false);
 
@@ -50,42 +35,6 @@ const Course = () => {
   const filtteredFoliagesD = FoliagesD.filter(
     (post) => post.tag === "Foliages"
   );
-  const filtteredForFillersD = ForFillersD.filter(
-    (post) => post.tag === "For Fillers"
-  );
-  const filtteredspecialFlowersD = specialFlowersD.filter(
-    (post) => post.tag === "Special Flowers"
-  );
-  const filtteredBouquetsD = BouquetsD.filter(
-    (post) => post.tag === "Bouquets"
-  );
-  const filtteredPlantsD = PlantsD.filter((post) => post.tag === "Plants");
-
-  useEffect(() => {
-    let width = window.innerWidth;
-    if (width < 600) {
-      setValue(1.1);
-      setMobile(true);
-    } else if (width <= 641) {
-      setValue(1.6);
-    } else if (width <= 800) {
-      setValue(2);
-    } else if (width <= 961) {
-      setValue(2.3);
-    } else if (width <= 1025) {
-      setValue(2.6);
-    } else if (width <= 1280) {
-      setValue(2.8);
-    } else if (width <= 1281) {
-      setValue(2.9);
-    }
-    if (width < 481) {
-      setMobile(true);
-    }
-    if (width > 481) {
-      setMobile(false);
-    }
-  }, []);
 
   return (
     <div className={styles.Course} id="portfolio">
@@ -106,10 +55,6 @@ const Course = () => {
                 setViewAll(true);
                 setFreshFlowers(false);
                 setFoliages(false);
-                setSpecialFlowers(false);
-                setFillers(false);
-                setBouquets(false);
-                setPlants(false);
               }}
               className={viewAll ? styles.ActiveSpan : styles.span}
             >
@@ -133,10 +78,10 @@ const Course = () => {
                               alt="vkflower"
                             />
                           </a>
-                          <div className={styles.contentBox}>
+                          {/* <div className={styles.contentBox}>
                             <h6>{title}</h6>
                             <h6>{title1}</h6>
-                          </div>
+                          </div> */}
                         </div>
                       </div>
                     );
@@ -151,10 +96,6 @@ const Course = () => {
                 setViewAll(false);
                 setFreshFlowers(true);
                 setFoliages(false);
-                setSpecialFlowers(false);
-                setFillers(false);
-                setBouquets(false);
-                setPlants(false);
               }}
               className={freshFlowers ? styles.ActiveSpan : styles.span}
             >
@@ -178,10 +119,10 @@ const Course = () => {
                                 className={styles.courseImg}
                               />
                             </a>
-                            <div className={styles.contentBox}>
+                            {/* <div className={styles.contentBox}>
                               <h6>{title}</h6>
                               <h6>{title1}</h6>
-                            </div>
+                            </div> */}
                           </div>
                         </div>
                       );
@@ -196,10 +137,6 @@ const Course = () => {
                 setViewAll(false);
                 setFreshFlowers(false);
                 setFoliages(true);
-                setSpecialFlowers(false);
-                setFillers(false);
-                setBouquets(false);
-                setPlants(false);
               }}
               className={foliages ? styles.ActiveSpan : styles.span}
             >
@@ -213,7 +150,7 @@ const Course = () => {
                         viewAllData;
                       return (
                         <div className={styles.leftSide} key={id}>
-                          <div className={styles.gridImg}>
+                          <div key={id}>
                             <a href={link1}>
                               <Image
                                 src={img}
@@ -223,10 +160,10 @@ const Course = () => {
                                 className={styles.courseImg}
                               />
                             </a>
-                          </div>
-                          <div className={styles.contentBox}>
-                            <h6>{title}</h6>
-                            <h6>{title1}</h6>
+                            {/* <div className={styles.contentBox}>
+                              <h6>{title}</h6>
+                              <h6>{title1}</h6>
+                            </div> */}
                           </div>
                         </div>
                       );
@@ -242,12 +179,12 @@ const Course = () => {
         <div className={styles.middlePanel}>
           {viewAll ? (
             <>
-              <div className={styles.gridPanelAll}>
+              <div className={styles.gridPanelAllP}>
                 {filtteredViewAllD.map((viewAllData) => {
                   const { id, title, title1, img, para, link1, link2 } =
                     viewAllData;
                   return (
-                    <div className={styles.leftSideAll} key={id}>
+                    <div className={styles.leftSide} key={id}>
                       <div key={id}>
                         <a href={link1}>
                           <Image
@@ -255,12 +192,12 @@ const Course = () => {
                             width="300"
                             height="252"
                             alt="vkflower"
-                            className={styles.ImgAll}
+                            className={styles.Img}
                           />
-                          <div className={styles.contentBoxAll}>
+                          {/* <div className={styles.contentBox}>
                             <h6>{title}</h6>
                             <h6>{title1}</h6>
-                          </div>
+                          </div> */}
                         </a>
                       </div>
                     </div>
@@ -273,12 +210,12 @@ const Course = () => {
           )}
           {freshFlowers ? (
             <>
-              <div className={styles.gridPanelAll} id="Fresh">
+              <div className={styles.gridPanelAllP} id="Fresh">
                 {filtteredFreshFlowersD.map((viewAllData) => {
                   const { id, title, title1, img, para, link1, link2 } =
                     viewAllData;
                   return (
-                    <div className={styles.leftSideAll} key={id}>
+                    <div className={styles.leftSide} key={id}>
                       <div key={id}>
                         <a href={link1}>
                           <Image
@@ -286,12 +223,12 @@ const Course = () => {
                             width="300"
                             height="252"
                             alt="vkflower"
-                            className={styles.ImgAll}
+                            className={styles.Img}
                           />
-                          <div className={styles.contentBoxAll}>
+                          {/* <div className={styles.contentBox}>
                             <h6>{title}</h6>
                             <h6>{title1}</h6>
-                          </div>
+                          </div> */}
                         </a>
                       </div>
                     </div>
@@ -304,146 +241,28 @@ const Course = () => {
           )}
           {foliages ? (
             <>
-              <div className={styles.gridPanelAll} id="foliages">
+              <div className={styles.gridPanelAllP} id="foliages">
                 {filtteredFoliagesD.map((viewAllData) => {
                   const { id, title, title1, img, para, link1, link2 } =
                     viewAllData;
                   return (
-                    <div className={styles.leftSideAll} key={id}>
-                      <div key={id}>
-                        <a href={link1}>
-                          <Image
-                            src={img}
-                            width="300"
-                            height="252"
-                            alt="vkflower"
-                            className={styles.ImgAll}
-                          />
-                          <div className={styles.contentBoxAll}>
-                            <h6>{title}</h6>
-                            <h6>{title1}</h6>
-                          </div>
-                        </a>
-                      </div>
-                    </div>
-                  );
-                })}
-              </div>
-            </>
-          ) : (
-            ""
-          )}
-          {fillers ? (
-            <>
-              <div className={styles.gridPanelAll} id="fillers">
-                {filtteredForFillersD.map((viewAllData) => {
-                  const { id, title, title1, img, para, link1, link2 } =
-                    viewAllData;
-                  return (
-                    <div className={styles.leftSideAll} key={id}>
-                      <div key={id}>
-                        <a href={link1}>
-                          <Image
-                            src={img}
-                            width="300"
-                            height="252"
-                            alt="vkflower"
-                            className={styles.ImgAll}
-                          />
-                          <div className={styles.contentBoxAll}>
-                            <h6>{title}</h6>
-                            <h6>{title1}</h6>
-                          </div>
-                        </a>
-                      </div>
-                    </div>
-                  );
-                })}
-              </div>
-            </>
-          ) : (
-            ""
-          )}
-          {specialFlowers ? (
-            <>
-              <div className={styles.gridPanelAll} id="specialFlowers">
-                {filtteredspecialFlowersD.map((viewAllData) => {
-                  const { id, title, title1, img, para, link1, link2 } =
-                    viewAllData;
-                  return (
-                    <div className={styles.leftSideAll} key={id}>
+                    <div className={styles.leftSide} key={id}>
+                    <div key={id}>
                       <a href={link1}>
                         <Image
                           src={img}
                           width="300"
                           height="252"
                           alt="vkflower"
-                          className={styles.ImgAll}
+                          className={styles.Img}
                         />
-                        <div className={styles.contentBoxAll}>
+                        {/* <div className={styles.contentBoxAll}>
                           <h6>{title}</h6>
                           <h6>{title1}</h6>
-                        </div>
+                        </div> */}
                       </a>
                     </div>
-                  );
-                })}
-              </div>
-            </>
-          ) : (
-            ""
-          )}
-          {bouquets ? (
-            <>
-              <div className={styles.gridPanelAll} id="bouquets">
-                {filtteredBouquetsD.map((viewAllData) => {
-                  const { id, title, title1, img, para, link1, link2 } =
-                    viewAllData;
-                  return (
-                    <div className={styles.leftSideAll} key={id}>
-                      <a href={link1}>
-                        <Image
-                          src={img}
-                          width="300"
-                          height="252"
-                          alt="vkflower"
-                          className={styles.ImgAll}
-                        />
-                        <div className={styles.contentBoxAll}>
-                          <h6>{title}</h6>
-                          <h6>{title1}</h6>
-                        </div>
-                      </a>
-                    </div>
-                  );
-                })}
-              </div>
-            </>
-          ) : (
-            ""
-          )}
-          {plants ? (
-            <>
-              <div className={styles.gridPanelAll} id="plants">
-                {filtteredPlantsD.map((viewAllData) => {
-                  const { id, title, title1, img, para, link1, link2 } =
-                    viewAllData;
-                  return (
-                    <div className={styles.leftSideAll} key={id}>
-                      <a href={link1}>
-                        <Image
-                          src={img}
-                          width="300"
-                          height="252"
-                          alt="vkflower"
-                          className={styles.ImgAll}
-                        />
-                        <div className={styles.contentBoxAll}>
-                          <h6>{title}</h6>
-                          <h6>{title1}</h6>
-                        </div>
-                      </a>
-                    </div>
+                  </div>
                   );
                 })}
               </div>

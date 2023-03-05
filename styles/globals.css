@@ -6,7 +6,7 @@ body {
 }
 
 :root {
-  --swiper-theme-color: #f34f3f !important;
+  --swiper-theme-color: #DB3968 !important;
 }
 
 .swiper-button-next:after, .swiper-rtl .swiper-button-prev:after {
@@ -46,8 +46,8 @@ a {
   text-transform: uppercase;
   line-height: 22px;
   letter-spacing: .1em;
-  background: #f34f3f;
-  border: 2px solid #f34f3f;
+  background: #DB3968;
+  border: 2px solid #DB3968;
   padding: 10px 20px;
   border-radius: 10px;
   cursor: pointer;
@@ -82,7 +82,7 @@ a {
 }
 
 @media (max-width: 600px) {
-  .Button {
+  .Button, .ButtonWhatsapp {
     padding: 8px 10px;
   }
 }

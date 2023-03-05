@@ -19,11 +19,10 @@
   text-align: left;
 }
 .NameInput {
-  border-radius: 2px;
-  border: 0;
+  border-radius: 8px;
+  padding: 10px;
   width: 100%;
-  border-bottom: 1px solid grey;
-  /* border-bottom: 1px solid grey; */
+  border: 1px solid grey;
   outline: none;
   background-color: rgba(255, 255, 255);
   height: 50px;
@@ -38,10 +37,10 @@
   height: 50px;
 }
 .EmailInput {
-  border-radius: 2px;
-  border: 0;
+  border-radius: 8px;
+  padding: 10px;
   width: 100%;
-  border-bottom: 1px solid grey;
+  border: 1px solid grey;
   outline: none;
   background-color: rgba(255, 255, 255);
   height: 50px;
@@ -202,8 +201,8 @@
   text-transform: uppercase;
   line-height: 22px;
   letter-spacing: .1em;
-  background: #f34f3f;
-  border: 2px solid #f34f3f;
+  background: #DB3968;
+  border: 2px solid #DB3968;
   padding: 10px 20px;
   border-radius: 10px;
   cursor: pointer;
@@ -246,7 +245,7 @@
 .alert {
   margin: 0;
   margin-bottom: 10px;
-  color: #f34f3f !important;
+  color: #DB3968 !important;
   font-size: 18px !important;
 }
 

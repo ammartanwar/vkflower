@@ -8,11 +8,10 @@
   .gridPanel {
     padding: 0;
     margin-top: 0px;
-    display: grid;
     overflow: scroll;
-    grid-template-columns: 60% 60% 60% 60% 60% 60%;
-    height: 330px;
+    height: 300px;
     margin-bottom: 20px;
+    display: flex;
   }
   .contentBox h6 {
     color: #1b1b1b;
@@ -31,21 +30,24 @@
   font-weight: 500;
   cursor: pointer;
   border: 0;
-  background-color: #f34f3f;
+  background-color: #DB3968;
   color: white;
   justify-content: start;
 }
 .span {
-  font-size: 18px;
-  border: 0;
-  background: aliceblue;
-  border-bottom: 1px solid #2d9cd730;
+  padding: 10px;
+  width: fit-content;
   cursor: pointer;
-  padding: 12px 20px;
+  justify-content: start;
+  text-transform: uppercase;
+  font-size: 12px;
+  border: 0;
+  background: none;
+  border-bottom: 0;
 }
 }
 
-@media (min-width:1281px) {
+@media (min-width:1025px) {
 .Course {
   padding: 0px 100px;
 }
@@ -70,7 +72,7 @@
 }
 .tick {
   font-size: 20px;
-  color: #f34f3f;
+  color: #DB3968;
 }
 
 .listButton {
@@ -94,16 +96,13 @@
   justify-content: start;
   text-transform: uppercase;
   font-size: 12px;
-  border: 0;
-  background: none;
-  border-bottom: 0;
 }
 .ActiveSpan {
   padding: 10px;
   width: fit-content;
   cursor: pointer;
   justify-content: start;
-  color: #f34f3f;
+  color: #DB3968;
   text-transform: uppercase;
   font-size: 12px;
   background-color: #fff;
@@ -126,10 +125,7 @@
 
 .leftSideAllP {
   padding: 0px;
-}
-
-.ImgAll {
-  height: auto;
+  cursor: pointer;
 }
 
 .contentBoxAll {
@@ -164,6 +160,7 @@
   font-size: 24px;
   margin: 0;
   padding: 0px 0px 5px 0px;
+  margin-bottom: 20px;
 }
 
 .leftSideAll {
@@ -206,7 +203,7 @@
   font-size: 18px;
   margin: 0;
   margin-top: 0px;
-  color: #f34f3f;
+  color: #DB3968;
 }
 .leftSide p,
 .middleSide p,
@@ -216,7 +213,7 @@
 }
 .checkCircle {
   margin-right: 10px;
-  color: #f34f3f;
+  color: #DB3968;
   font-size: 22px;
 }
 .btnWrapper {
@@ -247,7 +244,11 @@
   .leftSide,
   .middleSide,
   .rightSide {
-    max-height: 190px;
+    width: 60%;
+    margin: 10px 0px;
+    padding: 0px;
+    display: flex;
+    flex: none;
   }
 }
 
@@ -277,8 +278,9 @@
     font-size: 18px;
     border: 0;
     background: aliceblue;
-    border-bottom: 1px solid #2d9cd730;
+    border-bottom: 1px solid #DB396830;
     padding: 12px 20px;
+    width: 100%;
   }
   .leftSide,
   .middleSide,
@@ -320,9 +322,11 @@
   .leftSide,
   .middleSide,
   .rightSide {
-    width: 100%;
+    width: 60%;
     margin: 10px 0px;
     padding: 0px;
+    display: flex;
+    flex: none;
   }
   .courseImg {
     width: 100%;

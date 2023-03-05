@@ -60,10 +60,10 @@ const Course = () => {
   const filtteredspecialFlowersD = specialFlowersD.filter(
     (post) => post.tag === "Special Flowers"
   );
-  const filtteredBouquetsD = BouquetsD.filter(
-    (post) => post.tag === "Bouquets"
-  );
-  const filtteredPlantsD = PlantsD.filter((post) => post.tag === "Plants");
+  // const filtteredBouquetsD = BouquetsD.filter(
+  //   (post) => post.tag === "Bouquets"
+  // );
+  // const filtteredPlantsD = PlantsD.filter((post) => post.tag === "Plants");
 
   return (
     <div className={styles.Course} id="categories">
@@ -108,7 +108,17 @@ const Course = () => {
               <div className={styles.mPanel}>
                 <div className={styles.gridPanel}>
                   {filtteredViewAllD.map((viewAllData) => {
-                    const { id, title, img, link1 } = viewAllData;
+                    const {
+                    id,
+                    title,
+                    img,
+                    Size,
+                    color,
+                    availability,
+                    quantity,
+                    linkw,
+                    link1,
+                  } = viewAllData;
                     return (
                       <div className={styles.leftSide} key={id}>
                         <div key={id}>
@@ -179,13 +189,13 @@ const Course = () => {
                         }}
                       >
                         <div key={id}>
-                            <Image
-                              src={img}
-                              width="423"
-                              height="252"
-                              alt="vkflower"
-                              className={styles.courseImg}
-                            />
+                          <Image
+                            src={img}
+                            width="423"
+                            height="252"
+                            alt="vkflower"
+                            className={styles.courseImg}
+                          />
                           <div className={styles.contentBox}>
                             <h6>{title}</h6>
                           </div>
@@ -216,22 +226,43 @@ const Course = () => {
               <div className={styles.mPanel}>
                 <div className={styles.gridPanel}>
                   {filtteredFoliagesD.map((viewAllData) => {
-                    const { id, title, img, link1 } = viewAllData;
+                    const {
+                    id,
+                    title,
+                    img,
+                    Size,
+                    color,
+                    availability,
+                    quantity,
+                    linkw,
+                    link1,
+                  } = viewAllData;
                     return (
-                      <div className={styles.leftSide} key={id}>
-                        <div className={styles.gridImg}>
-                          <a href={link1}>
-                            <Image
-                              src={img}
-                              width="423"
-                              height="252"
-                              alt="vkflower"
-                              className={styles.courseImg}
-                            />
-                          </a>
-                        </div>
-                        <div className={styles.contentBox}>
-                          <h6>{title}</h6>
+                      <div
+                        className={styles.leftSide}
+                        key={id}
+                        onClick={() => {
+                          popupShow();
+                          setTitle(title);
+                          setImg(img);
+                          setSize(Size);
+                          setAvailability(availability);
+                          setColor(color);
+                          setQuantity(quantity);
+                          setLinkw(linkw);
+                        }}
+                      >
+                        <div key={id}>
+                          <Image
+                            src={img}
+                            width="423"
+                            height="252"
+                            alt="vkflower"
+                            className={styles.courseImg}
+                          />
+                          <div className={styles.contentBox}>
+                            <h6>{title}</h6>
+                          </div>
                         </div>
                       </div>
                     );
@@ -259,19 +290,40 @@ const Course = () => {
               <div className={styles.mPanel}>
                 <div className={styles.gridPanel}>
                   {filtteredspecialFlowersD.map((viewAllData) => {
-                    const { id, title, img, link1 } = viewAllData;
+                    const {
+                    id,
+                    title,
+                    img,
+                    Size,
+                    color,
+                    availability,
+                    quantity,
+                    linkw,
+                    link1,
+                  } = viewAllData;
                     return (
-                      <div className={styles.leftSide} key={id}>
+                      <div
+                        className={styles.leftSide}
+                        key={id}
+                        onClick={() => {
+                          popupShow();
+                          setTitle(title);
+                          setImg(img);
+                          setSize(Size);
+                          setAvailability(availability);
+                          setColor(color);
+                          setQuantity(quantity);
+                          setLinkw(linkw);
+                        }}
+                      >
                         <div key={id}>
-                          <a href={link1}>
-                            <Image
-                              src={img}
-                              width="423"
-                              height="252"
-                              alt="vkflower"
-                              className={styles.courseImg}
-                            />
-                          </a>
+                          <Image
+                            src={img}
+                            width="423"
+                            height="252"
+                            alt="vkflower"
+                            className={styles.courseImg}
+                          />
                           <div className={styles.contentBox}>
                             <h6>{title}</h6>
                           </div>
@@ -302,19 +354,40 @@ const Course = () => {
               <div className={styles.mPanel}>
                 <div className={styles.gridPanel}>
                   {filtteredForFillersD.map((viewAllData) => {
-                    const { id, title, img, link1 } = viewAllData;
+                    const {
+                    id,
+                    title,
+                    img,
+                    Size,
+                    color,
+                    availability,
+                    quantity,
+                    linkw,
+                    link1,
+                  } = viewAllData;
                     return (
-                      <div className={styles.leftSide} key={id}>
+                      <div
+                        className={styles.leftSide}
+                        key={id}
+                        onClick={() => {
+                          popupShow();
+                          setTitle(title);
+                          setImg(img);
+                          setSize(Size);
+                          setAvailability(availability);
+                          setColor(color);
+                          setQuantity(quantity);
+                          setLinkw(linkw);
+                        }}
+                      >
                         <div key={id}>
-                          <a href={link1}>
-                            <Image
-                              src={img}
-                              width="423"
-                              height="252"
-                              alt="vkflower"
-                              className={styles.courseImg}
-                            />
-                          </a>
+                          <Image
+                            src={img}
+                            width="423"
+                            height="252"
+                            alt="vkflower"
+                            className={styles.courseImg}
+                          />
                           <div className={styles.contentBox}>
                             <h6>{title}</h6>
                           </div>
@@ -327,7 +400,7 @@ const Course = () => {
             ) : (
               ""
             )}
-            <span
+            {/* <span
               onClick={() => {
                 setViewAll(false);
                 setFreshFlowers(false);
@@ -345,19 +418,40 @@ const Course = () => {
               <div className={styles.mPanel}>
                 <div className={styles.gridPanel}>
                   {filtteredBouquetsD.map((viewAllData) => {
-                    const { id, title, img, link1 } = viewAllData;
+                    const {
+                    id,
+                    title,
+                    img,
+                    Size,
+                    color,
+                    availability,
+                    quantity,
+                    linkw,
+                    link1,
+                  } = viewAllData;
                     return (
-                      <div className={styles.leftSide} key={id}>
+                      <div
+                        className={styles.leftSide}
+                        key={id}
+                        onClick={() => {
+                          popupShow();
+                          setTitle(title);
+                          setImg(img);
+                          setSize(Size);
+                          setAvailability(availability);
+                          setColor(color);
+                          setQuantity(quantity);
+                          setLinkw(linkw);
+                        }}
+                      >
                         <div key={id}>
-                          <a href={link1}>
-                            <Image
-                              src={img}
-                              width="423"
-                              height="252"
-                              alt="vkflower"
-                              className={styles.courseImg}
-                            />
-                          </a>
+                          <Image
+                            src={img}
+                            width="423"
+                            height="252"
+                            alt="vkflower"
+                            className={styles.courseImg}
+                          />
                           <div className={styles.contentBox}>
                             <h6>{title}</h6>
                           </div>
@@ -388,19 +482,40 @@ const Course = () => {
               <div className={styles.mPanel}>
                 <div className={styles.gridPanel}>
                   {filtteredPlantsD.map((viewAllData) => {
-                    const { id, title, img, link1 } = viewAllData;
+                    const {
+                    id,
+                    title,
+                    img,
+                    Size,
+                    color,
+                    availability,
+                    quantity,
+                    linkw,
+                    link1,
+                  } = viewAllData;
                     return (
-                      <div className={styles.leftSide} key={id}>
+                      <div
+                        className={styles.leftSide}
+                        key={id}
+                        onClick={() => {
+                          popupShow();
+                          setTitle(title);
+                          setImg(img);
+                          setSize(Size);
+                          setAvailability(availability);
+                          setColor(color);
+                          setQuantity(quantity);
+                          setLinkw(linkw);
+                        }}
+                      >
                         <div key={id}>
-                          <a href={link1}>
-                            <Image
-                              src={img}
-                              width="423"
-                              height="252"
-                              alt="vkflower"
-                              className={styles.courseImg}
-                            />
-                          </a>
+                          <Image
+                            src={img}
+                            width="423"
+                            height="252"
+                            alt="vkflower"
+                            className={styles.courseImg}
+                          />
                           <div className={styles.contentBox}>
                             <h6>{title}</h6>
                           </div>
@@ -412,7 +527,7 @@ const Course = () => {
               </div>
             ) : (
               ""
-            )}
+            )} */}
           </div>
           <button onClick={popupShowP} className="Button">
             Talk to Florist
@@ -423,24 +538,34 @@ const Course = () => {
             <>
               <div className={styles.gridPanelAll}>
                 {filtteredViewAllD.map((viewAllData) => {
-                  const { id, title, img, link1 } = viewAllData;
+                  const {
+                    id,
+                    title,
+                    img,
+                    Size,
+                    color,
+                    availability,
+                    quantity,
+                    linkw,
+                    link1,
+                  } = viewAllData;
                   return (
                     <div className={styles.leftSideAll} key={id}>
-                      <div key={id}>
-                        <a href={link1}>
-                          <Image
-                            src={img}
-                            width="423"
-                            height="252"
-                            alt="vkflower"
-                            className={styles.ImgAll}
-                          />
+                        <div key={id}>
+                          <a href={link1}>
+                            <Image
+                              src={img}
+                              width="423"
+                              height="252"
+                              className={styles.courseImgAll}
+                              alt="vkflower"
+                            />
+                          </a>
                           <div className={styles.contentBoxAll}>
                             <h6>{title}</h6>
                           </div>
-                        </a>
+                        </div>
                       </div>
-                    </div>
                   );
                 })}
               </div>
@@ -450,7 +575,7 @@ const Course = () => {
           )}
           {freshFlowers ? (
             <>
-              <div className={styles.gridPanelAllP} id="Fresh">
+              <div className={styles.gridPanelAllP}P id="Fresh">
                 {filtteredFreshFlowersD.map((viewAllData) => {
                   const {
                     id,
@@ -487,10 +612,10 @@ const Course = () => {
                               alt="vkflower"
                               className={styles.ImgAll}
                             />
-                            </div>
-                            <div className={styles.contentBoxAll}>
-                              <h6>{title}</h6>
-                            </div>
+                          </div>
+                          <div className={styles.contentBoxAll}>
+                            <h6>{title}</h6>
+                          </div>
                         </div>
                       </div>
                     </div>
@@ -503,24 +628,48 @@ const Course = () => {
           )}
           {foliages ? (
             <>
-              <div className={styles.gridPanelAllP} id="foliages">
+              <div className={styles.gridPanelAllP}P id="foliages">
                 {filtteredFoliagesD.map((viewAllData) => {
-                  const { id, title, img, link1 } = viewAllData;
+                  const {
+                    id,
+                    title,
+                    img,
+                    Size,
+                    color,
+                    availability,
+                    quantity,
+                    linkw,
+                    link1,
+                  } = viewAllData;
                   return (
-                    <div className={styles.leftSideAllP} key={id}>
-                      <div key={id}>
-                        <a href={link1}>
-                          <Image
-                            src={img}
-                            width="300"
-                            height="252"
-                            alt="vkflower"
-                            className={styles.ImgAll}
-                          />
+                    <div
+                      key={id}
+                      onClick={() => {
+                        popupShow();
+                        setTitle(title);
+                        setImg(img);
+                        setSize(Size);
+                        setAvailability(availability);
+                        setColor(color);
+                        setQuantity(quantity);
+                        setLinkw(linkw);
+                      }}
+                    >
+                      <div className={styles.leftSideAllP} key={id}>
+                        <div key={id}>
+                          <div>
+                            <Image
+                              src={img}
+                              width="300"
+                              height="252"
+                              alt="vkflower"
+                              className={styles.ImgAll}
+                            />
+                          </div>
                           <div className={styles.contentBoxAll}>
                             <h6>{title}</h6>
                           </div>
-                        </a>
+                        </div>
                       </div>
                     </div>
                   );
@@ -532,24 +681,48 @@ const Course = () => {
           )}
           {fillers ? (
             <>
-              <div className={styles.gridPanelAllP} id="fillers">
+              <div className={styles.gridPanelAllP}P id="fillers">
                 {filtteredForFillersD.map((viewAllData) => {
-                  const { id, title, img, link1 } = viewAllData;
+                  const {
+                    id,
+                    title,
+                    img,
+                    Size,
+                    color,
+                    availability,
+                    quantity,
+                    linkw,
+                    link1,
+                  } = viewAllData;
                   return (
-                    <div className={styles.leftSideAllP} key={id}>
-                      <div key={id}>
-                        <a href={link1}>
-                          <Image
-                            src={img}
-                            width="300"
-                            height="252"
-                            alt="vkflower"
-                            className={styles.ImgAll}
-                          />
+                    <div
+                      key={id}
+                      onClick={() => {
+                        popupShow();
+                        setTitle(title);
+                        setImg(img);
+                        setSize(Size);
+                        setAvailability(availability);
+                        setColor(color);
+                        setQuantity(quantity);
+                        setLinkw(linkw);
+                      }}
+                    >
+                      <div className={styles.leftSideAllP} key={id}>
+                        <div key={id}>
+                          <div>
+                            <Image
+                              src={img}
+                              width="300"
+                              height="252"
+                              alt="vkflower"
+                              className={styles.ImgAll}
+                            />
+                          </div>
                           <div className={styles.contentBoxAll}>
                             <h6>{title}</h6>
                           </div>
-                        </a>
+                        </div>
                       </div>
                     </div>
                   );
@@ -561,23 +734,49 @@ const Course = () => {
           )}
           {specialFlowers ? (
             <>
-              <div className={styles.gridPanelAllP} id="specialFlowers">
+              <div className={styles.gridPanelAllP}P id="specialFlowers">
                 {filtteredspecialFlowersD.map((viewAllData) => {
-                  const { id, title, img, link1 } = viewAllData;
+                  const {
+                    id,
+                    title,
+                    img,
+                    Size,
+                    color,
+                    availability,
+                    quantity,
+                    linkw,
+                    link1,
+                  } = viewAllData;
                   return (
-                    <div className={styles.leftSideAllP} key={id}>
-                      <a href={link1}>
-                        <Image
-                          src={img}
-                          width="300"
-                          height="252"
-                          alt="vkflower"
-                          className={styles.ImgAll}
-                        />
-                        <div className={styles.contentBoxAll}>
-                          <h6>{title}</h6>
+                    <div
+                      key={id}
+                      onClick={() => {
+                        popupShow();
+                        setTitle(title);
+                        setImg(img);
+                        setSize(Size);
+                        setAvailability(availability);
+                        setColor(color);
+                        setQuantity(quantity);
+                        setLinkw(linkw);
+                      }}
+                    >
+                      <div className={styles.leftSideAllP} key={id}>
+                        <div key={id}>
+                          <div>
+                            <Image
+                              src={img}
+                              width="300"
+                              height="252"
+                              alt="vkflower"
+                              className={styles.ImgAll}
+                            />
+                          </div>
+                          <div className={styles.contentBoxAll}>
+                            <h6>{title}</h6>
+                          </div>
                         </div>
-                      </a>
+                      </div>
                     </div>
                   );
                 })}
@@ -586,25 +785,51 @@ const Course = () => {
           ) : (
             ""
           )}
-          {bouquets ? (
+          {/* {bouquets ? (
             <>
-              <div className={styles.gridPanelAllP} id="bouquets">
+              <div className={styles.gridPanelAllP}P id="bouquets">
                 {filtteredBouquetsD.map((viewAllData) => {
-                  const { id, title, img, link1 } = viewAllData;
+                  const {
+                    id,
+                    title,
+                    img,
+                    Size,
+                    color,
+                    availability,
+                    quantity,
+                    linkw,
+                    link1,
+                  } = viewAllData;
                   return (
-                    <div className={styles.leftSideAllP} key={id}>
-                      <a href={link1}>
-                        <Image
-                          src={img}
-                          width="300"
-                          height="252"
-                          alt="vkflower"
-                          className={styles.ImgAll}
-                        />
-                        <div className={styles.contentBoxAll}>
-                          <h6>{title}</h6>
+                    <div
+                      key={id}
+                      onClick={() => {
+                        popupShow();
+                        setTitle(title);
+                        setImg(img);
+                        setSize(Size);
+                        setAvailability(availability);
+                        setColor(color);
+                        setQuantity(quantity);
+                        setLinkw(linkw);
+                      }}
+                    >
+                      <div className={styles.leftSideAllP} key={id}>
+                        <div key={id}>
+                          <div>
+                            <Image
+                              src={img}
+                              width="300"
+                              height="252"
+                              alt="vkflower"
+                              className={styles.ImgAll}
+                            />
+                          </div>
+                          <div className={styles.contentBoxAll}>
+                            <h6>{title}</h6>
+                          </div>
                         </div>
-                      </a>
+                      </div>
                     </div>
                   );
                 })}
@@ -615,23 +840,49 @@ const Course = () => {
           )}
           {plants ? (
             <>
-              <div className={styles.gridPanelAllP} id="plants">
+              <div className={styles.gridPanelAllP}P id="plants">
                 {filtteredPlantsD.map((viewAllData) => {
-                  const { id, title, img, link1 } = viewAllData;
+                  const {
+                    id,
+                    title,
+                    img,
+                    Size,
+                    color,
+                    availability,
+                    quantity,
+                    linkw,
+                    link1,
+                  } = viewAllData;
                   return (
-                    <div className={styles.leftSideAllP} key={id}>
-                      <a href={link1}>
-                        <Image
-                          src={img}
-                          width="300"
-                          height="252"
-                          alt="vkflower"
-                          className={styles.ImgAll}
-                        />
-                        <div className={styles.contentBoxAll}>
-                          <h6>{title}</h6>
+                    <div
+                      key={id}
+                      onClick={() => {
+                        popupShow();
+                        setTitle(title);
+                        setImg(img);
+                        setSize(Size);
+                        setAvailability(availability);
+                        setColor(color);
+                        setQuantity(quantity);
+                        setLinkw(linkw);
+                      }}
+                    >
+                      <div className={styles.leftSideAllP} key={id}>
+                        <div key={id}>
+                          <div>
+                            <Image
+                              src={img}
+                              width="300"
+                              height="252"
+                              alt="vkflower"
+                              className={styles.ImgAll}
+                            />
+                          </div>
+                          <div className={styles.contentBoxAll}>
+                            <h6>{title}</h6>
+                          </div>
                         </div>
-                      </a>
+                      </div>
                     </div>
                   );
                 })}
@@ -639,7 +890,7 @@ const Course = () => {
             </>
           ) : (
             ""
-          )}
+          )} */}
         </div>
       </div>
     </div>

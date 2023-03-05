@@ -9,6 +9,7 @@ import Form from "../Form/Form";
 const Navbar = () => {
   const [show, setShow] = useState(false);
   const [popups, setPopups] = useState(false);
+  const [icon, setIcon] = useState(false);
 
   const popupShow = () => {
     setPopups(true);
@@ -76,11 +77,11 @@ const Navbar = () => {
           </div>
           <Link href="/">
             <Image
-              src="/logo.webp"
+              src="RVK_Logo.png"
               alt="Learnbay"
               quality={100}
-              width="128"
-              height="73"
+              width="115"
+              height="115"
             />
           </Link>
           {mobile ? (

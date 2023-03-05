@@ -6,10 +6,9 @@ function blogSection() {
   return (
     <section className={styles.blogSection} id="blog" >
       <div className={styles.blogContent}>
-        <h2>From our Blog</h2>
+        <h2>Our bloom stories</h2>
         <p>
-          A perfect blend of creativity, energy, communication, happiness and
-          love. Let us arrange a smile for you.
+        Read our blogs here:
         </p>
       </div>
       <div className={styles.blogInner}>

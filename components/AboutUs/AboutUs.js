@@ -37,8 +37,20 @@ function AboutUs() {
         </div>
       </Popup>
       <div className={styles.left}>
-        <Image src="/leftAbout.jpg" width="650" height="420" alt="VK Flora" className={styles.ImgD} />
-        <Image src="/leftAbout.jpg" width="350" height="220" alt="VK Flora" className={styles.ImgM} />
+        <Image
+          src="/leftAbout.jpg"
+          width="650"
+          height="420"
+          alt="VK Flora"
+          className={styles.ImgD}
+        />
+        <Image
+          src="/leftAbout.jpg"
+          width="350"
+          height="220"
+          alt="VK Flora"
+          className={styles.ImgM}
+        />
       </div>
       <div className={styles.right}>
         <h1 className={styles.innerH1}>
@@ -47,16 +59,16 @@ function AboutUs() {
           Let us arrange a smile.
         </h1>
         <p className={styles.innerPara}>
-          V K Flora can Supply Wholesale Flowers. Flowers are a great way to
-          express your feelings to your loved ones. You can personally gift the
-          flowers to your special ones or get them hand-delivered via us. We V K
-          Flora Growers And Suppliers at Wilson Garden believe in customer
-          satisfaction as the topmost priority to all of our clients as we make
-          sure that they are completely satisfied with our service and delivery.
-          Our dedicated and professional staff will provide you with a
-          delightful experience.
+          R V K Flora can Supply Wholesale Flowers. Flowers are a great way to
+          express your feelings to your loved ones. We are growers and suppliers
+          of over 30 varieties of colourful flowers and 10 varieties of
+          foliages. We guarantee the best quality farm fresh flowers at
+          wholesale price. We are currently providing service only at Bangalore.
+          We believe in 100% customer care and satisfaction.
         </p>
-        <button onClick={popupShow} className="Button">Talk to Florist</button>
+        <button onClick={popupShow} className="Button">
+          Talk to Florist
+        </button>
       </div>
     </section>
   );

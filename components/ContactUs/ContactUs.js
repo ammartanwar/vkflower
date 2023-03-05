@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./ContactUs.module.css";
 import "react-phone-number-input/style.css";
+import Form from "../Form/Form"
 import PhoneInput from "react-phone-number-input";
 import Image from "next/image";
 
@@ -15,7 +16,7 @@ Join The
 <br/><span className={styles.innerSpan}>Colorful Bunch!</span>
         </h1>
         <div className={styles.formWrapper}>
-          <input
+          {/* <input
             type="text"
             name="name"
             className={styles.NameInput}
@@ -45,7 +46,8 @@ Join The
         <div className={styles.ButtonDiv}>
         <button type="submit" className="Button">
           Talk to Florist
-        </button>
+        </button> */}
+        <Form />
         </div>
       </div>
     </section>

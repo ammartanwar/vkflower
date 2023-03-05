@@ -26,8 +26,8 @@
   font-weight: 400;
 }
 .right span:hover, .right span:active {
-  color: #f34f3f;
-  border-bottom: 1px solid #f34f3f;
+  color: #DB3968;
+  border-bottom: 1px solid #DB3968;
 }
 .hide {
   display: none;
@@ -48,7 +48,7 @@
     backdrop-filter: blur(16px) saturate(180%);
     -webkit-backdrop-filter: blur(16px) saturate(180%);
     background-color: rgba(255, 255, 255, 0.75);
-    height: 80px;
+    height: 100px;
     padding: 0px 10px;
     display: flex;
 
@@ -105,7 +105,7 @@
   }
   .mobileWrapper .mobileMenu span:hover {
     color: #fff;
-    background-color: #2d9cd7;
+    background-color: #DB3968;
   }
 }
 
