@@ -536,7 +536,7 @@ const Course = () => {
         <div className={styles.middlePanel}>
           {viewAll ? (
             <>
-              <div className={styles.gridPanelAll}>
+              <div className={styles.gridPanelAllP}>
                 {filtteredViewAllD.map((viewAllData) => {
                   const {
                     id,
@@ -550,15 +550,15 @@ const Course = () => {
                     link1,
                   } = viewAllData;
                   return (
-                    <div className={styles.leftSideAll} key={id}>
+                    <div className={styles.leftSideAllP} key={id}>
                         <div key={id}>
                           <a href={link1}>
-                            <Image
+                          <Image
                               src={img}
-                              width="423"
+                              width="300"
                               height="252"
-                              className={styles.courseImgAll}
                               alt="vkflower"
+                              className={styles.ImgAll}
                             />
                           </a>
                           <div className={styles.contentBoxAll}>

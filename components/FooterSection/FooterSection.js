@@ -19,11 +19,11 @@ function FooterSection() {
         <div className={styles.FooterDivInner}>
           <Link href="/">
             <Image
-              src="/logo.webp"
+              src="RVK_Logo.png"
               alt="vk Flora"
               quality={100}
-              width="128"
-              height="73"
+              width="100"
+              height="100"
             />
           </Link>
           <p className={styles.FooterInnerli}>

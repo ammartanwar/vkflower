@@ -17,6 +17,17 @@ function index() {
         <title>
           vkflower
         </title>
+        <title>
+        RVK Sumabana - The Flower Experts
+        </title>
+        <meta
+          name="description"
+          content="RVK Sumabana - The Flower Experts"
+        />
+        <link
+          rel="icon"
+          href="RVK_Logo.png"
+        />
       </Head>
       <Navbar />
       <FirstSection />
