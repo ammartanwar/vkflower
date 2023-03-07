@@ -57,15 +57,6 @@ function FirstSection() {
         <SwiperSlide className={styles.leftSide}>
           <div className={styles.slider1}>
             <div className={styles.innerItems}>
-              <h1 className={styles.innerH1}>
-                Send <span className={styles.innerSpan}>flowers</span> like you
-                mean it.
-              </h1>
-              <p className={styles.innerPara}>
-                Where flowers are our inspiration to create lasting memories.
-                Whatever the occasion, our flowers will make it special cursus a
-                sit amet mauris.
-              </p>
               <button onClick={popupShow} className="Button">
                 Talk to Florist
               </button>
@@ -75,15 +66,6 @@ function FirstSection() {
         <SwiperSlide className={styles.leftSide}>
           <div className={styles.slider2}>
             <div className={styles.innerItems}>
-              <h1 className={styles.innerH1}>
-                Send <span className={styles.innerSpan}>flowers</span> like you
-                mean it.
-              </h1>
-              <p className={styles.innerPara}>
-                Where flowers are our inspiration to create lasting memories.
-                Whatever the occasion, our flowers will make it special cursus a
-                sit amet mauris.
-              </p>
               <button onClick={popupShow} className="Button">
                 Talk to Florist
               </button>
@@ -93,15 +75,6 @@ function FirstSection() {
         <SwiperSlide className={styles.leftSide}>
           <div className={styles.slider3}>
             <div className={styles.innerItems}>
-              <h1 className={styles.innerH1}>
-                Send <span className={styles.innerSpan}>flowers</span> like you
-                mean it.
-              </h1>
-              <p className={styles.innerPara}>
-                Where flowers are our inspiration to create lasting memories.
-                Whatever the occasion, our flowers will make it special cursus a
-                sit amet mauris.
-              </p>
               <button onClick={popupShow} className="Button">
                 Talk to Florist
               </button>
