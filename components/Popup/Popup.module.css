@@ -15,7 +15,7 @@
     }
     
     .popupInner {
-        background-image: url("../../public/slider1.jpg");
+        background-image: url("../../public/popup.png");
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center center;
@@ -63,7 +63,7 @@
 }
 
 .popupInner {
-    background-image: url("../../public/slider1.jpg");
+    background-image: url("../../public/popup.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
