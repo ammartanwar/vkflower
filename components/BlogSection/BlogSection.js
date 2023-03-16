@@ -13,7 +13,7 @@ function blogSection() {
       </div>
       <div className={styles.blogInner}>
         <div>
-          <Image src="/leftAbout.jpg" width="370" height="270" alt="VK Flora" className={styles.ImgM} />
+          <Image src="/leftAbout.jpg" width="370" height="270" alt="RVK Sumabana" className={styles.ImgM} />
           <h2>Flower Power</h2>
           <p>
             Class aptent taciti sociosqu ad litora torquent per conubia nostra,
@@ -21,7 +21,7 @@ function blogSection() {
           </p>
         </div>
         <div>
-          <Image src="/leftAbout.jpg" width="370" height="270" alt="VK Flora" className={styles.ImgM} />
+          <Image src="/leftAbout.jpg" width="370" height="270" alt="RVK Sumabana" className={styles.ImgM} />
           <h2>Local Florists</h2>
           <p>
             Class aptent taciti sociosqu ad litora torquent per conubia nostra,
@@ -29,7 +29,7 @@ function blogSection() {
           </p>
         </div>
         <div>
-          <Image src="/leftAbout.jpg" width="370" height="270" alt="VK Flora" className={styles.ImgM} />
+          <Image src="/leftAbout.jpg" width="370" height="270" alt="RVK Sumabana" className={styles.ImgM} />
           <h2>Flower Beauty</h2>
           <p>
             Class aptent taciti sociosqu ad litora torquent per conubia nostra,

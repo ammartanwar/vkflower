@@ -27,7 +27,7 @@ function reviewsSection() {
                   src="/leftAbout.jpg"
                   width="100"
                   height="100"
-                  alt="VK Flora"
+                  alt="RVK Sumabana"
                   className={styles.Image}
                 />
                 <p className={styles.testText}>
@@ -46,7 +46,7 @@ function reviewsSection() {
                   src="/leftAbout.jpg"
                   width="100"
                   height="100"
-                  alt="VK Flora"
+                  alt="RVK Sumabana"
                   className={styles.Image}
                 />
                 <p className={styles.testText}>
@@ -66,7 +66,7 @@ function reviewsSection() {
                   src="/leftAbout.jpg"
                   width="100"
                   height="100"
-                  alt="VK Flora"
+                  alt="RVK Sumabana"
                   className={styles.Image}
                 />
                 <p className={styles.testText}>

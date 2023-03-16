@@ -41,25 +41,25 @@ function AboutUs() {
           src="/leftAboutD.jpg"
           width="650"
           height="420"
-          alt="VK Flora"
+          alt="RVK Sumabana"
           className={styles.ImgD}
         />
         <Image
           src="/leftAboutM.jpg"
           width="350"
           height="220"
-          alt="VK Flora"
+          alt="RVK Sumabana"
           className={styles.ImgM}
         />
       </div>
       <div className={styles.right}>
         <h1 className={styles.innerH1}>
-          About <span className={styles.innerSpan}>RVK</span>
+          About <span className={styles.innerSpan}>RVK Sumabana</span>
           <br />
           Let us arrange a smile.
         </h1>
         <p className={styles.innerPara}>
-          R V K Flora can Supply Wholesale Flowers. Flowers are a great way to
+          RVK Sumabana can Supply Wholesale Flowers. Flowers are a great way to
           express your feelings to your loved ones. We are growers and suppliers
           of over 30 varieties of colourful flowers and 10 varieties of
           foliages. We guarantee the best quality farm fresh flowers at
