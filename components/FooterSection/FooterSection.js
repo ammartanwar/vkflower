@@ -79,12 +79,6 @@ function FooterSection() {
           <Link href="#">
             <p className={styles.FooterInnerli}>Fillers</p>
           </Link>
-          <Link href="#">
-            <p className={styles.FooterInnerli}>Bouquets</p>
-          </Link>
-          <Link href="#">
-            <p className={styles.FooterInnerli}>Plants</p>
-          </Link>
         </div>
         <div className={styles.FooterDivInner}>
           <p className={styles.FooterInnerP}>RVK Sumabana</p>
@@ -164,7 +158,7 @@ function FooterSection() {
       }}>
         <div className={styles.FooterBottomInner}>
           <p className={styles.FooterInnerB}>
-            © Copyrights 2021 - 2022. V K Flora Growers And Suppliers.All Rights
+            Copyright © 2022. RVK Sumabana.All Rights
             Reserved.
           </p>
         </div>
