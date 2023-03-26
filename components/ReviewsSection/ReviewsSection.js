@@ -24,7 +24,7 @@ function reviewsSection() {
             <div className={styles.slider}>
               <div className={styles.innerItems}>
                 <Image
-                  src="/leftAbout.jpg"
+                  src="/user.jpeg"
                   width="100"
                   height="100"
                   alt="RVK Sumabana"
@@ -34,7 +34,7 @@ function reviewsSection() {
                   Great service by the team. Received fresh flowers for our
                   house warming ceremony. Every detail turned out to be amazing.
                 </p>
-                <p className={styles.authorName}>Jasmine White</p>
+                <p className={styles.authorName}>Alfiya Muskan</p>
                 <p className={styles.authorJob}>Florist</p>
               </div>
             </div>
@@ -43,7 +43,7 @@ function reviewsSection() {
             <div className={styles.slider}>
               <div className={styles.innerItems}>
                 <Image
-                  src="/leftAbout.jpg"
+                  src="/user.jpeg"
                   width="100"
                   height="100"
                   alt="RVK Sumabana"
@@ -54,8 +54,8 @@ function reviewsSection() {
                   from RVK and they always manage to wow us with the quality of
                   their products.
                 </p>
-                <p className={styles.authorName}>Jasmine White</p>
-                <p className={styles.authorJob}>Florist</p>
+                <p className={styles.authorName}>Vijay Kumar</p>
+                <p className={styles.authorJob}>Business Owner</p>
               </div>
             </div>
           </SwiperSlide>
@@ -63,7 +63,7 @@ function reviewsSection() {
             <div className={styles.slider}>
               <div className={styles.innerItems}>
                 <Image
-                  src="/leftAbout.jpg"
+                  src="/user.jpeg"
                   width="100"
                   height="100"
                   alt="RVK Sumabana"
@@ -72,8 +72,8 @@ function reviewsSection() {
                 <p className={styles.testText}>
                 Surprised by how freshed the quality of products were and also happy to be a satisfied customer at RVK
                 </p>
-                <p className={styles.authorName}>Jasmine White</p>
-                <p className={styles.authorJob}>Florist</p>
+                <p className={styles.authorName}>Abhishek Raj</p>
+                <p className={styles.authorJob}>Customer</p>
               </div>
             </div>
           </SwiperSlide>

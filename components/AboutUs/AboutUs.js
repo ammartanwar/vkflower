@@ -63,7 +63,7 @@ function AboutUs() {
           express your feelings to your loved ones. We are growers and suppliers
           of over 30 varieties of colourful flowers and 10 varieties of
           foliages. We guarantee the best quality farm fresh flowers at
-          wholesale price. We are currently providing service only at Bangalore.
+          wholesale price. We are currently providing service in pan India.
           We believe in 100% customer care and satisfaction.
         </p>
         <button onClick={popupShow} className="Button">

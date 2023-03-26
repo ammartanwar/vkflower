@@ -41,9 +41,6 @@ function FooterSection() {
             <Link href="https://www.linkedin.com/" target="_blank">
               <FaLinkedinIn className="bIcons" />
             </Link>
-            <Link href="https://YouTube" target="_blank">
-              <FaYoutube className="bIcons" />
-            </Link>
             <Link href="https://instagram.com/" target="_blank">
               <FaInstagram className="bIcons" />
             </Link>
@@ -158,7 +155,7 @@ function FooterSection() {
       }}>
         <div className={styles.FooterBottomInner}>
           <p className={styles.FooterInnerB}>
-            Copyright © 2022. RVK Sumabana.All Rights
+            Copyright © 2023. RVK Sumabana.All Rights
             Reserved.
           </p>
         </div>
