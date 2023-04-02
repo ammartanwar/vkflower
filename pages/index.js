@@ -9,6 +9,7 @@ import ReviewsSection from "../components/ReviewsSection/ReviewsSection";
 import FooterSection from "../components/FooterSection/FooterSection";
 import CategoriesSection from "../components/CategoriesSection/CategoriesSection";
 import PortfolioDetails from "../components/PortfolioSection/PortfolioSection";
+import Callwhatsapp from "../components/Callwhatsapp/Callwhatsapp";
 
 function index() {
   return (
@@ -38,6 +39,7 @@ function index() {
       <BlogSection />
       <ReviewsSection />
       <FooterSection />
+      <Callwhatsapp />
     </div>
   );
 }

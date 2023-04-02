@@ -91,7 +91,7 @@ const Course = () => {
             ) : (
               ""
             )}
-            <span
+            {/* <span
               onClick={() => {
                 setViewAll(false);
                 setFreshFlowers(true);
@@ -119,10 +119,6 @@ const Course = () => {
                                 className={styles.courseImg}
                               />
                             </a>
-                            {/* <div className={styles.contentBox}>
-                              <h6>{title}</h6>
-                              <h6>{title1}</h6>
-                            </div> */}
                           </div>
                         </div>
                       );
@@ -131,48 +127,7 @@ const Course = () => {
               </div>
             ) : (
               ""
-            )}
-            <span
-              onClick={() => {
-                setViewAll(false);
-                setFreshFlowers(false);
-                setFoliages(true);
-              }}
-              className={foliages ? styles.ActiveSpan : styles.span}
-            >
-              Brochure
-            </span>
-            {foliages ? (
-              <div className={styles.mPanel}>
-                <div className={styles.gridPanel}>
-                    {filtteredFoliagesD.map((viewAllData) => {
-                      const { id, title, title1, img, para, link1, link2 } =
-                        viewAllData;
-                      return (
-                        <div className={styles.leftSide} key={id}>
-                          <div key={id}>
-                            <a href={link1}>
-                              <Image
-                                src={img}
-                                width="423"
-                                height="252"
-                                alt="vkflower"
-                                className={styles.courseImg}
-                              />
-                            </a>
-                            {/* <div className={styles.contentBox}>
-                              <h6>{title}</h6>
-                              <h6>{title1}</h6>
-                            </div> */}
-                          </div>
-                        </div>
-                      );
-                    })}
-                </div>
-              </div>
-            ) : (
-              ""
-            )}
+            )} */}
           </div>
           <button onClick={popupShow} className="Button">Talk to Florist</button>
         </div>
@@ -232,37 +187,6 @@ const Course = () => {
                         </a>
                       </div>
                     </div>
-                  );
-                })}
-              </div>
-            </>
-          ) : (
-            ""
-          )}
-          {foliages ? (
-            <>
-              <div className={styles.gridPanelAllP} id="foliages">
-                {filtteredFoliagesD.map((viewAllData) => {
-                  const { id, title, title1, img, para, link1, link2 } =
-                    viewAllData;
-                  return (
-                    <div className={styles.leftSide} key={id}>
-                    <div key={id}>
-                      <a href={link1}>
-                        <Image
-                          src={img}
-                          width="300"
-                          height="252"
-                          alt="vkflower"
-                          className={styles.Img}
-                        />
-                        {/* <div className={styles.contentBoxAll}>
-                          <h6>{title}</h6>
-                          <h6>{title1}</h6>
-                        </div> */}
-                      </a>
-                    </div>
-                  </div>
                   );
                 })}
               </div>

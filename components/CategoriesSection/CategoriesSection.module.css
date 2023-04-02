@@ -33,6 +33,7 @@
   background-color: #DB3968;
   color: white;
   justify-content: start;
+  text-transform: uppercase;
 }
 .span {
   padding: 10px;
@@ -44,6 +45,23 @@
   border: 0;
   background: none;
   border-bottom: 0;
+}
+.displayM {
+  display: block;
+}
+.displayD {
+  display: none;
+}
+.displayM .gridPanel {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  overflow: unset;
+  height: fit-content;
+}
+.displayM .leftSide {
+  width: 100%;
+  display: block;
+  max-height: fit-content;
 }
 }
 
@@ -106,6 +124,7 @@
   text-transform: uppercase;
   font-size: 12px;
   background-color: #fff;
+  text-transform: uppercase;
 }
 
 .gridPanelAll {
@@ -235,6 +254,12 @@
   justify-content: space-evenly;
   padding: 0px 20px;
 }
+.displayM {
+  display: none;
+}
+.displayD {
+  display: block;
+}
 }
 
 @media (max-width: 1025px) {
@@ -250,11 +275,23 @@
     display: flex;
     flex: none;
   }
+  .displayM {
+    display: none;
+  }
+  .displayD {
+    display: block;
+  }
 }
 
 @media (max-width: 1280px) {
   .contentBox {
     margin-top: -30px;
+  }
+  .displayM {
+    display: none;
+  }
+  .displayD {
+    display: block;
   }
 }
 
@@ -262,6 +299,12 @@
   .Course h2 {
     font-size: 24px;
     font-weight: 600;
+  }
+  .displayM {
+    display: none;
+  }
+  .displayD {
+    display: block;
   }
 }
 
@@ -281,6 +324,7 @@
     border-bottom: 1px solid #DB396830;
     padding: 12px 20px;
     width: 100%;
+    text-transform: uppercase;
   }
   .leftSide,
   .middleSide,
@@ -308,7 +352,12 @@
     height: max-content;
   }
 
-
+  .displayM {
+    display: block;
+  }
+  .displayD {
+    display: none;
+  }
 
   .gridPanelN {
     overflow: scroll;
@@ -339,5 +388,17 @@
   }
   .contentBox {
     margin-top: -20px;
+  }
+  .displayM .gridPanel {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    overflow: unset;
+    height: fit-content;
+    gap: 0px 10px;
+  }
+  .displayM .leftSide {
+    width: 100%;
+    display: block;
+    max-height: fit-content;
   }
 }

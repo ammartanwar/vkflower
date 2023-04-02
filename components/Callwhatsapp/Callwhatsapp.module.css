@@ -1,0 +1,49 @@
+.whatsapp {
+    margin: 0 0 80px 0 !important;
+    padding: 5px;
+    position: fixed !important;
+    z-index: 16000160 !important;
+    bottom: 0 !important;
+    text-align: center !important;
+    height: 45px;
+    min-width: 45px;
+    border-radius: 10px;
+    visibility: visible;
+    transition: none !important;
+    background-color: #4dc247;
+    box-shadow: 2px 2px 6px rgba(0,0,0,0.4);
+    right: 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    justify-content: center;
+}
+
+.call {
+    position: fixed !important;
+    margin: 0 0 20px 0 !important;
+    padding: 5px;
+    position: fixed !important;
+    z-index: 16000160 !important;
+    bottom: 0 !important;
+    text-align: center !important;
+    height: 45px;
+    min-width: 45px;
+    border-radius: 10px;
+    visibility: visible;
+    transition: none !important;
+    background-color: #DB3968;
+    box-shadow: 2px 2px 6px rgba(0,0,0,0.4);
+    right: 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    justify-content: center;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+}
