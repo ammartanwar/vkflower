@@ -1,7 +1,7 @@
 require('dotenv').config()
 const PASSWORD = process.env.password
 
-export default function (req, res) {
+export default function Contact (req, res) {
     require('dotenv').config()
     
     let nodemailer = require('nodemailer')
