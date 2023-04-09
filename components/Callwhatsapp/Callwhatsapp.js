@@ -10,6 +10,6 @@ function Callwhatsapp() {
         <div><a href="tel:918951718061" rel="noreferrer"><FaPhoneSquareAlt className={styles.call}/></a></div>
     </section>
   )
-}
+} 
 
 export default Callwhatsapp
