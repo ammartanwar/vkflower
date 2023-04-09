@@ -9,7 +9,7 @@ export default function Contact (req, res) {
       port: 465,
       host: "smtp.gmail.com",
       auth: {
-        user: 'ammartanwar60@gmail.com',
+        user: 'rvksumabana@gmail.com',
         pass: process.env.password,
       },
       secure: true,
