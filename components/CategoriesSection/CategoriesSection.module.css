@@ -391,7 +391,7 @@
   }
   .displayM .gridPanel {
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 46% 46%;
     overflow: unset;
     height: fit-content;
     gap: 0px 10px;
