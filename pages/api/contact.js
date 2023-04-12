@@ -9,20 +9,20 @@ export default function Contact (req, res) {
       port: 465,
       host: "smtp.gmail.com",
       auth: {
-        user: 'rvksumabana@gmail.com',
+        user: 'customercarervk@gmail.com',
         pass: process.env.password,
       },
       secure: true,
     })
     const mailData = {
       from: req.body.email,
-      to: 'rvksumabana@gmail.com',
+      to: 'customercarervk@gmail.com',
       subject: `Message From ${req.body.name}`,
       html: `<div>New Inquiry :- </div><div><p>Mobile Number: ${req.body.mobile}</p></div><p>Email:
       ${req.body.email}</p>`
     }
     const mailDataRecieve = {
-        from: 'rvksumabana@gmail.com',
+        from: 'customercarervk@gmail.com',
         to: req.body.email,
         subject: `Message From RVK Sumabana`,
 
