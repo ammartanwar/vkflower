@@ -5,7 +5,6 @@ import { IoMailSharp } from "react-icons/io5";
 import { BsFillTelephoneFill } from "react-icons/bs";
 import styles from "./FooterSection.module.css";
 import {
-  FaTwitter,
   FaFacebookF,
   FaLinkedinIn,
   FaYoutube,
@@ -32,16 +31,16 @@ function FooterSection() {
             the flowers to your special ones or get them hand-delivered via us.
           </p>
           <div className={styles.FooterSocial}>
-            <Link href="https://twitter.com/" target="_blank">
-              <FaTwitter className="bIcons" />
+            <Link href="https://www.youtube.com/channel/UCQlJuqtIzMwf54f1WJ9J6GQ" target="_blank">
+              <FaYoutube className="bIcons" />
             </Link>
-            <Link href="https://www.facebook.com/" target="_blank">
+            <Link href="https://www.facebook.com/profile.php?id=100090268803795" target="_blank">
               <FaFacebookF className="bIcons" />
             </Link>
-            <Link href="https://www.linkedin.com/" target="_blank">
+            <Link href="https://www.linkedin.com/company/rvk-sumabana/" target="_blank">
               <FaLinkedinIn className="bIcons" />
             </Link>
-            <Link href="https://instagram.com/" target="_blank">
+            <Link href="https://www.instagram.com/rvk_sumabana/" target="_blank">
               <FaInstagram className="bIcons" />
             </Link>
           </div>
